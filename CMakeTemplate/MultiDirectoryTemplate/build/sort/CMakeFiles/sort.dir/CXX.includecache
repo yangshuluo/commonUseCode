@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yyz/yyz/test/CMakeTemplate/MultiDirectoryTemplate/sort/insert.cpp
+
+/home/yyz/yyz/test/CMakeTemplate/MultiDirectoryTemplate/sort/select.cpp
+

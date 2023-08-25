@@ -1,0 +1,1 @@
+/usr/bin/c++   -I../ -Wall -g -std=c++11 -O3 -DNDEBUG   CMakeFiles/main.dir/log.cpp.o CMakeFiles/main.dir/test.cpp.o  -o ../main -lpthread 

@@ -1,0 +1,3 @@
+/home/yyz/yyz/test/btManage/build/CMakeFiles/rebuild_cache.dir
+/home/yyz/yyz/test/btManage/build/CMakeFiles/edit_cache.dir
+/home/yyz/yyz/test/btManage/build/CMakeFiles/main.dir

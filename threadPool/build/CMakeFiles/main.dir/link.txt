@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -g -std=c++11 -O3 -DNDEBUG   CMakeFiles/main.dir/TaskPool.cpp.o CMakeFiles/main.dir/main.cpp.o  -o ../main -pthread 

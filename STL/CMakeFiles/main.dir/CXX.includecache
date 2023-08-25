@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yyz/yyz/test/STL/testSTL.cpp
+vector
+-
+list
+-
+deque
+-
+algorithm
+-
+iostream
+-
+

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yyz/yyz/test/CMakeTemplate/MultiDirectoryTemplate/calc/add.cpp
+
+/home/yyz/yyz/test/CMakeTemplate/MultiDirectoryTemplate/calc/div.cpp
+
+/home/yyz/yyz/test/CMakeTemplate/MultiDirectoryTemplate/calc/mult.cpp
+
+/home/yyz/yyz/test/CMakeTemplate/MultiDirectoryTemplate/calc/sub.cpp
+

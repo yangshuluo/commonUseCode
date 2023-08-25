@@ -1,0 +1,3 @@
+/home/yyz/yyz/test/JSON/build/CMakeFiles/rebuild_cache.dir
+/home/yyz/yyz/test/JSON/build/CMakeFiles/edit_cache.dir
+/home/yyz/yyz/test/JSON/build/CMakeFiles/main.dir

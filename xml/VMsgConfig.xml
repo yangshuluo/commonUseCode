@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RJVmsgConfig>
+<!-- 消息ID和组件ID映射表，主动用于RCDC\Shine上主动发起的消息，没有指定接收组件的情况，根据命令匹配对应的组件 
+消息汇总详见https://doc.weixin.qq.com/txdoc/excel?scode=AJIArwfLAAY0WKduGLACcAiwbYAHM&docid=e2_ACcAiwbYAHM5AZsEpQlTY2UDWcAnR&type=1-->
+    <CommandList>
+	<!-- cmdid：消息ID。moduleid：组件ID。comment：消息说明 -->
+        <Item cmdid="7000" moduleid="135"/>
+        <Item cmdid="7001" moduleid="135"/>
+        <Item cmdid="7002" moduleid="136|135"/>
+    </CommandList>
+</RJVmsgConfig>

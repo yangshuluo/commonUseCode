@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yyz/yyz/test/JSON/JsonTest.cpp
+nlohmann/json.hpp
+/home/yyz/yyz/test/JSON/nlohmann/json.hpp
+iostream
+-
+string
+-
+

@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yyz/yyz/test/threadPool/TaskPool.cpp
+TaskPool.h
+/home/yyz/yyz/test/threadPool/TaskPool.h
+
+/home/yyz/yyz/test/threadPool/TaskPool.h
+condition_variable
+-
+iostream
+-
+list
+-
+memory
+-
+mutex
+-
+thread
+-
+vector
+-
+
+/home/yyz/yyz/test/threadPool/main.cpp
+chrono
+-
+TaskPool.h
+/home/yyz/yyz/test/threadPool/TaskPool.h
+

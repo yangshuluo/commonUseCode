@@ -1,0 +1,4 @@
+/home/yyz/yyz/test/TCP/UDP/socket/build/CMakeFiles/rebuild_cache.dir
+/home/yyz/yyz/test/TCP/UDP/socket/build/CMakeFiles/server.dir
+/home/yyz/yyz/test/TCP/UDP/socket/build/CMakeFiles/edit_cache.dir
+/home/yyz/yyz/test/TCP/UDP/socket/build/CMakeFiles/client.dir

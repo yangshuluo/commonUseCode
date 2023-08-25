@@ -1,0 +1,15 @@
+{
+    "version": "1.0",
+    "acpi": {
+        "name": "UOS-ISO",
+        "ostype": "UBUNTU",
+        "ProcessorArchitecture": "x86",
+        "osbit": 64,
+        "arch" : "VOI",
+        "host" : "TERM",
+        "msgProtocolType" : "TCP",
+        "loaderDisk": 0,
+        "loaderPartitionNumber": 1,
+        "loaderPath": "\\EFI\\UOS\\shimx64.efi"
+    }
+}

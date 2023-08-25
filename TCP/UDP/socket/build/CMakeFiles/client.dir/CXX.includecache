@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yyz/yyz/test/TCP/UDP/socket/client.cpp
+arpa/inet.h
+-
+errno.h
+-
+fcntl.h
+-
+iostream
+-
+poll.h
+-
+string.h
+-
+sys/ioctl.h
+-
+sys/socket.h
+-
+sys/types.h
+-
+unistd.h
+-
+vector
+-
+

@@ -1,0 +1,3 @@
+/home/yyz/yyz/test/build/CMakeFiles/rebuild_cache.dir
+/home/yyz/yyz/test/build/CMakeFiles/edit_cache.dir
+/home/yyz/yyz/test/build/CMakeFiles/main.dir

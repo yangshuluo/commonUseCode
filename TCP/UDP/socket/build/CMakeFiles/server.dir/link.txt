@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -g -std=c++11 -O3 -DNDEBUG   CMakeFiles/server.dir/server.cpp.o  -o /home/yyz/yyz/test/TCP/UDP/bin/server 

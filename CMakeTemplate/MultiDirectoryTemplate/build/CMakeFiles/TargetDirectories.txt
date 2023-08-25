@@ -1,0 +1,14 @@
+/home/yyz/yyz/test/CMakeTemplate/MultiDirectoryTemplate/build/CMakeFiles/edit_cache.dir
+/home/yyz/yyz/test/CMakeTemplate/MultiDirectoryTemplate/build/CMakeFiles/rebuild_cache.dir
+/home/yyz/yyz/test/CMakeTemplate/MultiDirectoryTemplate/build/calc/CMakeFiles/rebuild_cache.dir
+/home/yyz/yyz/test/CMakeTemplate/MultiDirectoryTemplate/build/calc/CMakeFiles/edit_cache.dir
+/home/yyz/yyz/test/CMakeTemplate/MultiDirectoryTemplate/build/calc/CMakeFiles/calc.dir
+/home/yyz/yyz/test/CMakeTemplate/MultiDirectoryTemplate/build/sort/CMakeFiles/edit_cache.dir
+/home/yyz/yyz/test/CMakeTemplate/MultiDirectoryTemplate/build/sort/CMakeFiles/rebuild_cache.dir
+/home/yyz/yyz/test/CMakeTemplate/MultiDirectoryTemplate/build/sort/CMakeFiles/sort.dir
+/home/yyz/yyz/test/CMakeTemplate/MultiDirectoryTemplate/build/test1/CMakeFiles/rebuild_cache.dir
+/home/yyz/yyz/test/CMakeTemplate/MultiDirectoryTemplate/build/test1/CMakeFiles/edit_cache.dir
+/home/yyz/yyz/test/CMakeTemplate/MultiDirectoryTemplate/build/test1/CMakeFiles/test1.dir
+/home/yyz/yyz/test/CMakeTemplate/MultiDirectoryTemplate/build/test2/CMakeFiles/edit_cache.dir
+/home/yyz/yyz/test/CMakeTemplate/MultiDirectoryTemplate/build/test2/CMakeFiles/rebuild_cache.dir
+/home/yyz/yyz/test/CMakeTemplate/MultiDirectoryTemplate/build/test2/CMakeFiles/test2.dir

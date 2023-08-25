@@ -1,0 +1,36 @@
+[2023-02-28 15:36:31.577] <thread 5555> [warning]
+[/home/yyz/yyz/test/spdlog/test.cpp:12,main]
+test A
+
+[2023-02-28 15:36:31.578] <thread 5555> [error]
+[/home/yyz/yyz/test/spdlog/test.cpp:13,main]
+test ABC
+
+[2023-02-28 15:36:31.578] <thread 5555> [critical]
+[/home/yyz/yyz/test/spdlog/test.cpp:14,main]
+test abc
+
+[2023-03-01 09:55:13.926] <thread 28950> [warning] [/home/yyz/yyz/test/spdlog/test.cpp:12 main] : test A
+
+[2023-03-01 09:55:13.928] <thread 28950> [error] [/home/yyz/yyz/test/spdlog/test.cpp:13 main] : test ABC
+
+[2023-03-01 09:55:13.928] <thread 28950> [critical] [/home/yyz/yyz/test/spdlog/test.cpp:14 main] : test abc
+
+(2023-03-01 14:03:35.572) <thread 17490> [warning] [/home/yyz/yyz/test/spdlog/test.cpp:12 main] : test A
+
+(2023-03-01 14:03:35.573) <thread 17490> [error] [/home/yyz/yyz/test/spdlog/test.cpp:13 main] : test ABC
+
+(2023-03-01 14:03:35.573) <thread 17490> [critical] [/home/yyz/yyz/test/spdlog/test.cpp:14 main] : test abc
+
+(2023-03-01 14:03:58.378) <thread 17792> [warning] [/home/yyz/yyz/test/spdlog/test.cpp:12 main] : test A
+
+(2023-03-01 14:03:58.379) <thread 17792> [error] [/home/yyz/yyz/test/spdlog/test.cpp:13 main] : test ABC
+
+(2023-03-01 14:03:58.380) <thread 17792> [critical] [/home/yyz/yyz/test/spdlog/test.cpp:14 main] : test abc
+
+2023-03-01 14:04:25.546 <thread 18171> [warning] [/home/yyz/yyz/test/spdlog/test.cpp:12 main] : test A
+
+2023-03-01 14:04:25.547 <thread 18171> [error] [/home/yyz/yyz/test/spdlog/test.cpp:13 main] : test ABC
+
+2023-03-01 14:04:25.547 <thread 18171> [critical] [/home/yyz/yyz/test/spdlog/test.cpp:14 main] : test abc
+

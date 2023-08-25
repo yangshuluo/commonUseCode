@@ -1,0 +1,42 @@
+spdlog学习： 下载源码直接复制Include文件夹下的spdlog文件夹到项目目录下
+
+log级别
+	trace = SPDLOG_LEVEL_TRACE // 最低级（用来记录代码执行轨迹）
+	debug = SPDLOG_LEVEL_DEBUG //      （用来记录debug信息）
+	info = SPDLOG_LEVEL_INFO   
+	warn = SPDLOG_LEVEL_WARN
+	err = SPDLOG_LEVEL_ERROR
+	critical = SPDLOG_LEVEL_CRITICAL
+	off = SPDLOG_LEVEL_OFF     // 最高级
+
+1、基本使用 输出到控制台console
+	#include "spdlog/spdlog.h"
+	spdlog::info("Hello, {}!", "World"); //默认打印到控制台，默认的等级是info，debug不显示
+
+2、设置日志等级
+	spdlog::set_level(spdlog::level::info); // 只显示info及比info高级的信息，trace 和 debug 不显示
+
+3、设置日志输出位置  
+	include "spdlog/sinks/basic_file_sink.h"
+	// 开启并创建本地日志
+	auto my_logger = spdlog::basic_logger_mt("file_logger", "logs/basic-log.txt");
+
+	// 设置该日志的显示级别
+	my_logger->set_level(spdlog::level::warn);
+
+	// 向该日志中写入信息
+	my_logger->info("Hello, {}!", "World");
+	
+	/*
+		用上面的方法输出的日志仅在程序正常退出时才写入。但有时候，我们希望在程序不正常退出时查看日志以帮助我们锁定错误所在位置。所以要实时刷新日志
+	*/
+4、实时刷新日志
+	my_logger->flush_on(spdlog::level::trace);
+	
+5、设置单个日志文件的大小，轮转日志的数量
+	#include "spdlog/sinks/rotating_file_sink.h" 
+	/*第一个参数是日志的名字，第二个参数是文件名，第三个参数是文件的大小。最后一个参数是文件数量，当文件达到指定大小5MB时，便会生成myfilename.1、myfilename.2 ...*/
+	auto file_logger = spdlog::rotating_logger_mt("file_logger", "myfilename", 1024 * 1024 * 5, 3);
+	 
+6、输出格式 ： 使用 {} 格式化字符串，里面的数字为占位符
+	参考：https://www.bilibili.com/read/cv15130912

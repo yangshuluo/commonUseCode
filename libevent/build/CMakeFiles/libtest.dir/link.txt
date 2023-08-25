@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -std=c++11 -O3 -DNDEBUG   CMakeFiles/libtest.dir/epoll_server.cpp.o CMakeFiles/libtest.dir/epoll_client.cpp.o  -o ../libtest 

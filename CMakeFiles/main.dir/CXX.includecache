@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yyz/yyz/test/main.cpp
+cstdarg
+-
+iostream
+-
+string
+-
+string.h
+-
+mutex
+-
+map
+-
+vector
+-
+chrono
+-
+thread
+-
+nlohmann/json.hpp
+/home/yyz/yyz/test/nlohmann/json.hpp
+

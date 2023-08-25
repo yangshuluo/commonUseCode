@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -g -std=c++11 -O3 -DNDEBUG   CMakeFiles/client.cpp.dir/server.cpp.o CMakeFiles/client.cpp.dir/client.cpp.o  -o ../client.cpp 

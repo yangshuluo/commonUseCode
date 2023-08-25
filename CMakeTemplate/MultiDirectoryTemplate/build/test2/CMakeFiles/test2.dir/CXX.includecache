@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yyz/yyz/test/CMakeTemplate/MultiDirectoryTemplate/include/sort.h
+
+/home/yyz/yyz/test/CMakeTemplate/MultiDirectoryTemplate/test2/sort.cpp
+../include/sort.h
+/home/yyz/yyz/test/CMakeTemplate/MultiDirectoryTemplate/include/sort.h
+iostream
+-
+
